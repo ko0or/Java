@@ -90,7 +90,9 @@ class blogURL {
     }
 
     String getID() {
+        if (URL_LENGTH >4) return URL_ARRAY[URL_LENGTH-2];
         return URL_ARRAY[URL_LENGTH-1];
+        
     }
 
 }
