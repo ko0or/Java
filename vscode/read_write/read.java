@@ -17,10 +17,8 @@ public class read {
         //String[] str = new String(bytes).split("\n");
 
         System.out.println( str );
+        //System.out.println( str[0] );
         
 
-
-        
- 
     }
 }
