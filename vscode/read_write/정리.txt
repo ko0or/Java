@@ -1,0 +1,14 @@
+파일 입출력관련해서는 다양한 방법이 있다
+오늘은 그중 가장 간단하게 할 수 있는 방법으로 선택했다
+
+java.nio.file 패키지를 사용했고
+java.nio.file. 에 사용된 클래스는 3개이다.
+    Files   Path     Paths
+
+
+추가적으로 java.io.IOException 에 대해서도 알게되었는데
+클래스뒤에 ` throws IOException ` 를 붙이게 된다
+
+try - catch문이 특정 문장에만 사용했다면
+이건 클래스 전체를 기준으로 오류예외처리를 하는것같다
+
