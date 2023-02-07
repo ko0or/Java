@@ -1,0 +1,16 @@
+메인쓰레드외 병렬작업을 위한 새로운 쓰레드를 만들 수 있다
+Thread, Runnable 2가지이며
+
+Thread 는 상속불가, 많은 메모리차지로 인해서
+대부분의 상황에서 Runnable 을 선호한다고 한다.
+
+Thread 와 Runnable은 사용방법이 다르며
+파일에 따라 정리되어있다
+
+-->
+
+FILE_01 > Thread 기본 사용
+FILE_02 > Runnable 기본 사용
+FILE_03 > Thread + join() 활용 1
+FILE_04 > Thread + join() 활용 2
+
