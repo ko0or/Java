@@ -30,9 +30,9 @@ class Base {
     }
 
     //세터 메소드
-    public String setJob(String job) {
+    public Base setJob(String job) {
         this.job = job;
-        return this.job;
+        return this;
     }
     
     // 오버라이딩 toString()
