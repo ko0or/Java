@@ -24,8 +24,8 @@ public class FILE01 {
             .ofPattern("yyyy/MM/dd(E) HH:mm")
             .format(LocalDateTime.now());
  
-            System.out.println( "TEST_01 TYPE > " + TEST_01.getClass().getName() );
-            System.out.println( TEST_01 );
+        System.out.println( "TEST_01 TYPE > " + TEST_01.getClass().getName() );
+        System.out.println( TEST_01 );
 
 
         // 정해진대로 출력하는 현재시간 -->
