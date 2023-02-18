@@ -5,7 +5,9 @@ public class FILE01 {
         
         // chain_01, 메소드체이닝 사용(세터 2개)
         Base chain_01 = new Base();
-        chain_01.setName("홍길동").setAge(20);
+        chain_01
+            .setName("홍길동")
+            .setAge(20);
         
 
         // chain_02, 생성자 사용
