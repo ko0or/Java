@@ -12,7 +12,7 @@ class method_split_1 {
             System.out.println("> " + execute);
         }
         
-        System.out.println("블로그 아이디만 출력 --------------> ");
+        System.out.println("블로그 아이디만 출력 ---------------> ");
         System.out.println(TEXT_ARRAY[TEXT_LENGTH-1]);
 
     }
